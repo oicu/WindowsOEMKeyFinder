@@ -2,6 +2,8 @@
 
 解决预装 OEM 系统的电脑，在重装系统后找不到原来序列号的问题。
 
+![example](https://raw.githubusercontent.com/oicu/WindowsOEMKeyFinder/main/WindowsOEMKeyFinder-example.png)
+
 Description 的含义：
  - [4.0] CoreCountrySpecific OEM:DM 表示这个序列号可激活家庭中文版。
  - [4.0] Professional OEM:DM 表示这个序列号可激活专业版。

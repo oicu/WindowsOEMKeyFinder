@@ -2,6 +2,11 @@
 
 解决预装 OEM 系统的电脑，在重装系统后找不到原来序列号的问题。
 
+Description 的含义：
+ - [4.0] CoreCountrySpecific OEM:DM 表示这个序列号可激活家庭中文版。
+ - [4.0] Professional OEM:DM 表示这个序列号可激活专业版。
+ - 如果有 OEM 序列号但描述为空，则这个序列号和当前系统不匹配，比如当前系统是 Win10，但 OEM 序列号是用于 Win8 的。
+
 参考：
 
 https://winaero.com/how-to-view-your-product-key-in-windows-10-windows-8-and-windows-7/

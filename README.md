@@ -9,6 +9,8 @@ Description 的含义：
  - [4.0] Professional OEM:DM 表示这个序列号可激活专业版。
  - 如果有 OEM 序列号但描述为空，则这个序列号和当前系统不匹配，比如当前系统是 Win10，但 OEM 序列号是用于 Win8 的。
 
+该脚本经过上万台电脑测试的，如果安装密钥 Installed Key 是 `BBBBB-BBBBB-BBBBB-BBBBB-BBBBB`，说明电脑系统本身就有一些问题 :)
+
 vbs 脚本部分功能参考：
 
 https://winaero.com/how-to-view-your-product-key-in-windows-10-windows-8-and-windows-7/

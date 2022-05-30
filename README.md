@@ -9,7 +9,7 @@ Description 的含义：
  - [4.0] Professional OEM:DM 表示这个序列号可激活专业版。
  - 如果有 OEM 序列号但描述为空，则这个序列号和当前系统不匹配，比如当前系统是 Win10，但 OEM 序列号是用于 Win8 的。
 
-该脚本经过上万台电脑测试的，如果安装密钥 Installed Key 是 `BBBBB-BBBBB-BBBBB-BBBBB-BBBBB`，说明电脑系统本身就有一些问题 :)
+该脚本经过上万台电脑测试，如果安装密钥 Installed Key 是 `BBBBB-BBBBB-BBBBB-BBBBB-BBBBB`，先用`slmgr /ipk`导入其他密钥，再导入原来的密钥！直接导入原来密钥不会触发更改。
 
 vbs 脚本部分功能参考：
 

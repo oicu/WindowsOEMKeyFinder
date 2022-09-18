@@ -17,7 +17,7 @@ ProductKey = "Installed Key: " & ConvertToKey(DigitalID)
 GetOEMKey()
 ProductData = ProductName  & vbNewLine & ProductID  & vbNewLine & ProductKey & vbNewLine & vbNewLine & OEMKey & vbNewLine & OEMKeyDesc
 'If vbYes = MsgBox(ProductData  & vblf & vblf & "Save to a file?", vbYesNo + vbQuestion, "BackUp Windows Key Information") Then
-If vbYes = MsgBox(ProductData  & vblf & vblf & "是否保存信息到桌面文件 WindowsKeyInfo.txt ？", vbYesNo + vbQuestion, "备份 Windows 序列号信息 - C老师") Then
+If vbYes = MsgBox("查看 Win7、Win8、Win10 使用的序列号、主板 OEM 序列号。" & vblf & vblf & ProductData & vblf & vblf & "是否保存信息到桌面文件 WindowsKeyInfo.txt ？", vbYesNo + vbQuestion, "备份 Windows 序列号信息 - C老师") Then
    Save ProductData
 End If
 

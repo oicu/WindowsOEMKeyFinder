@@ -1,0 +1,19 @@
+# run `git add --renormalize .` after change this file
+# see https://www.git-scm.com/docs/gitattributes
+*.txt		text
+*.vcproj	text eol=crlf
+*.jpg		-text
+*.png		-text
+*.sh		text eol=lf
+*.bat		text eol=crlf
+*.cmd		text eol=crlf
+*.vbs		text eol=crlf
+#*.ini		text working-tree-encoding=UTF-16LE-BOM eol=CRLF
+*.aardio	text working-tree-encoding=UTF-8 eol=crlf
+
+# UTF-8-BOM
+*.ps1		text eol=crlf
+*.aproj		text eol=crlf
+
+# *			text=auto
+*			text=
